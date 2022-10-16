@@ -40,9 +40,9 @@ export const Filter = (): ReactElement => {
     <section>
       <h2>Preferences</h2>
       <h3>Show patterns known for...</h3>
-      <div>{mapTraits('pros')}</div>
+      <div className="traits">{mapTraits('pros')}</div>
       <h3>Hide patterns not known for...</h3>
-      <div>{mapTraits('cons')}</div>
+      <div className="traits">{mapTraits('cons')}</div>
       <h2>Results</h2>
       <Results results={results} />
       <button type="button" onClick={() => setResults(patterns)}>Reset filters</button>

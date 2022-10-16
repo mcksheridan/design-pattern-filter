@@ -4,12 +4,12 @@ import { Filter } from './components/filter';
 
 function App() {
   return (
-    <div>
+    <main>
       <header>
         <h1>Design Pattern Filter</h1>
       </header>
       <Filter />
-    </div>
+    </main>
   );
 }
 
